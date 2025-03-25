@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="count++">{{ count }}</button>
-    <components1 :count="count" />https://jk.zhxsi.top/generic-webhook-trigger/invoke?token=123
+    <components1 :count="count" />
     <components2 :count="count" />
   </div>
 </template>
