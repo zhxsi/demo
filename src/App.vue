@@ -2,7 +2,7 @@
   <div>
     <button @click="count++">{{ count }}</button>
     <components1 :count="count" />
-    <components2 :count="count" />23
+    <components2 :count="count" />212
   </div>
 </template>
 
