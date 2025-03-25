@@ -1,17 +1,14 @@
 <template>
   <div>
-    components1
+    {{ count }}
   </div>
 </template>
 
-<script>
-export default {
-  setup () {
+<script setup>
+const { count } = defineProps({
+  count: Number
+})
 
-
-    return {}
-  }
-}
 </script>
 
 <style lang="scss" scoped></style>
