@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="count++">{{ count }}</button>
-    <components1 :count="count" />
+    <components1 :count="count" />1231
     <components2 :count="count" />
   </div>
 </template>
